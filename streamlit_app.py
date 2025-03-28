@@ -26,7 +26,7 @@ def initialize_ee():
 import streamlit as st
 import datetime
 import geopandas as gpd
-import geemap.foliumap as geemap
+import geemap
 from shapely.geometry import box, mapping, Point
 import folium
 import zipfile
